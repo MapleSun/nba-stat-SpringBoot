@@ -1,3 +1,4 @@
+
 spring:
   profiles:
     active: dev
@@ -7,9 +8,13 @@ spring:
     username: root
     password: root
 
+  resources:
+    cache:
+      period: 10s
+
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     show-sql: true
     properties:
       hibernate:

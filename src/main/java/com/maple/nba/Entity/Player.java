@@ -1,8 +1,7 @@
-package com.maple.nba;
+package com.maple.nba.Entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Table;
 import java.util.ArrayList;
 
 //@Table(name = "player")

@@ -13,9 +13,6 @@ import java.util.Iterator;
 public class NbaApplication {
 
     public static void main(String[] args) throws Exception {
-        //Crawler crawler = new Crawler();
-        // get every single player's string array
-        // System.out.println(crawler.getListHeader());
         SpringApplication.run(NbaApplication.class, args);
     }
 }
